@@ -415,19 +415,12 @@
 
 .footer__dialog {
   position: fixed;
-  /* display: block; */
   inset: 0;
   padding: 30px;
   border: 2px solid var(--accent-color);
   opacity: 100%;
-  /* transition: opacity 0.3s ease-in-out; */
   background-color: var(--background-color);
 }
-
-/* dialog:not([open]) {
-  opacity: 0;
-  pointer-events: none;
-} */
 
 .footer__dialog::backdrop {
   background-color: rgb(0 0 0 / 0.75);
