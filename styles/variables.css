@@ -1,1 +1,17 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --main-font: "Inter-Variable";
+  --accent-font: "PressStart2P";
+  --wght-text: 400;
+  --wght-title: 700;
+  --background-color: #ffffff;
+  --accent-color: #000000;
+  --background-image: repeating-linear-gradient(#d3d3d3, transparent 2px),
+    repeating-linear-gradient(90deg, #d3d3d3, transparent 2px),
+    linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+  --breakpoint-simulation: 375px;
+  --mobile-width: 375px;
+  --sparks: #ff0000;
+  --contour: #000000;
+}
