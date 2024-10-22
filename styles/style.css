@@ -254,7 +254,11 @@
   cursor: pointer;
   transition: border-color 0.3s ease;
   padding: 0;
-  margin-right: 2px;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
 }
 
 .card__icon-button:focus {
@@ -321,8 +325,6 @@
 }
 
 .like-icon {
-  width: 55px;
-  height: 32px;
 }
 
 /* hover */
@@ -471,12 +473,14 @@
   .button-big {
     flex-direction: row;
     justify-content: center;
-    min-width: 335px;
+    min-width: 339px;
     padding: 0;
-    height: 51px;
+    height: 55px;
+    margin: 50px auto 103px;
   }
 
   .disk-icon {
     margin: 15px 0;
+    width: 21px;
   }
 }
